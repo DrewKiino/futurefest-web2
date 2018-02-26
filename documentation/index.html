@@ -1,0 +1,423 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Vizerk Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px;}
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Vizerk HTML5 Template &rdquo; Documentation by &ldquo;DesigningMedia&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Vizerk HTML5 Website Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-7 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 01.08.2014<br>
+					By: DesigningMedia<br>
+					Email: <a href="mailto:support@designingmedia.com">support@designingmedia.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/designingmedia">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		<h2 class="alt"><img class="thumbnail" src="assets/images/screenshot.png" width="400" align="right"></h2>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#intro">Introduction</a></li>
+			<li><a href="#start">Getting Started</a>
+            	<ul>
+                	<li><a href="#b1">B-1) Used CSS Files</a></li>
+                	<li><a href="#b2">B-2) Used jQuery Plugin</a></li>
+                	<li><a href="#b3">B-3) Bootstrap Grid System</a></li>
+                	<li><a href="#b4">B-4) Using Awesome Font Icons</a></li>
+                	<li><a href="#b5">B-5) Standard Drop Down Menu Usage</a></li>
+                	<li><a href="#b6">B-6) Using Color Schemes</a></li>
+                </ul>
+            </li>
+			<li><a href="#mapusage">How to use Google Map</a></li>
+			<li><a href="#jquery">How to edit a jQuery file</a></li>
+			<li><a href="#html">How to edit a HTML file</a></li>
+			<li><a href="#maintenance"> How to set timer,youtube video and slider images </a></li>
+			<li><a href="#support">Requesting Support</a></li>
+			<li><a href="#credits">Credits</a></li>
+			<li><a href="#version">Version History</a></li>
+		</ol>
+		<hr>
+		
+		<h3 id="intro"><strong>A) Introduction</strong> - <a href="#toc">top</a></h3>
+        
+        <div class="notice"><strong>PLEASE DONT FORGET TO EDIT contact.php line : 46 to the your email</strong></div>
+		<p>The Vizerk HTML5 website template is a custom design minimal personal blogging, portfolio template for displaying artwork. The Vizerk HTML5 template features a fully responsive framework that looks fantastic on any mobile device and retina display ready for high-quality resolution graphics. This template suitable for personal bloggers, photographers, designers, graphic designers, showcase sites small business sites etc.</p>
+
+		<p>It contains custom blog layouts and custom portfolio template layout options and 22 valid HTML5 page templates. Also we builded white and dark version for our dear clients. The Vizerk template features the coded with Bootstrap 3.0, HTML5 & CSS3 and unlimited color schemes. It’s compatible with all modern browsers and search engine friendly. So showcase your artworks and blogging posts with this awesome template!</p>
+
+        <p>This document covers the installation, set up, and use of this theme and provides answers and solutions to common problems and issues - we encourage you to read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond the scope of this document, feel free to post them in the dedicated support forum. (<a mailto="support@jollythemes.com">support@jollythemes.com</a>)</p>
+		<hr>
+		<h3 id="start"><strong>B) Getting Started</strong> - <a href="#toc">top</a></h3>
+
+		<p>Thank you for purchase this product. Vizerk is a responsive HTML5 website template component based in Bootstrap 3.+, HTML5 and CSS and JavaScript code.</p> 
+        
+        <h3 id="b1">B-1) Used CSS Files</h3>
+        
+        <p>Place the reference for CSS and Javascript files inside the “head” section of your page:</p>
+        
+        <pre class="brush: html">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- end Google Font -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,500,600,700,800,300' rel='stylesheet' type='text/css'>
+        <!-- owl carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- end awesome icons -->
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <!-- lightbox -->
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        
+        <!-- Style --><!-- Animation Effect CSS -->
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="style.css">
+
+        </pre>
+        
+        <br>
+
+        <h3 id="b2">B-2) Used jQuery Plugin</h3>
+        
+        <p>We listed below used jQuery plugins please check them.</p>
+        
+         <pre class="brush: js">
+        <!-- Main Scripts-->
+		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>   
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/jquery.parallax-1.3.1.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/jquery.unveilEffects.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/custom-portfolio-masonry.js"></script>
+         </pre>  
+         
+         <br>      
+        
+        <h3 id="b3">B-3) Bootstrap Grid System</h3>
+        
+        <p>You can use a column with a grid system composed up to 12 columns. This make more simple to organize your content. See the examples:</p>
+        
+        <pre class="brush: html">
+			<div class="container">
+            	<div class="row">
+                	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    	YOUR CODES GOES HERE
+                    </div>
+                </div>
+            </div>
+        </pre>
+        
+        <p>Our you can use the grid system with 2 columns like this;</p>
+        
+        <pre class="brush: html">
+			<div class="container">
+            	<div class="row">
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    	YOUR CODES GOES HERE
+                    </div>
+                	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    	YOUR CODES GOES HERE
+                    </div>
+                </div>
+            </div>
+        </pre>
+
+        <br>
+
+        <h3 id="b4">B-4) Using Awesome Font Icons</h3>
+		
+        <p>Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS. First you can download awesome font icons goes here : http://fortawesome.github.io/Font-Awesome/ (we included to the .zip).</p>
+        
+        <pre class="brush: html">
+        	<!-- Font Awesome Files -->
+            <link rel="stylesheet" href="assests/css/font-awesome.min.css">
+        </pre>
+        
+        <p>Then upload fonts folder to the your css/ folder. That's it! Now use font awesome icons like this;</p>
+	
+		<pre class="brush: html">
+        	<!-- Font Awesome Files -->
+            <i class="fa fa-home"></i>
+        </pre>
+        	
+        <br>        
+        
+        <h3 id="b5">B-5) Drop Down Menu Usage</h3>
+
+		<p>We used Smoth Scrolling effect and standard drop down menu with this template. Here are we listed full example menu with all elements.</p>
+        
+        <pre class="brush: html">
+	                    <!--/Header Start -->
+            <header class="header">
+                <div class="container">
+                    <div class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                            </div><!-- end navbar-header -->
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                <li><a data-scroll href="#home" class="int-collapse-menu">Home</a></li>
+                                <li><a data-scroll href="#features" class="int-collapse-menu">Features</a></li>
+                                <li><a data-scroll href="#about" class="int-collapse-menu">About</a></li>
+                                <li><a data-scroll href="#services" class="int-collapse-menu">Services</a></li>
+                                <li><a data-scroll href="#pricing" class="int-collapse-menu">Pricing</a></li>
+                                <li><a data-scroll href="#team" class="int-collapse-menu">Team</a></li>
+                                <li><a data-scroll href="#works" class="int-collapse-menu">Works</a></li>
+                                <li><a data-scroll href="#contact" class="int-collapse-menu">Contact</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                </ul>
+                            </div><!--/.nav-collapse -->
+                        </div><!--/.container-fluid -->
+                    </div>
+                </div><!-- end container -->
+            </header><!-- end header -->
+				</pre>
+        
+        <br>  
+
+		<br>
+
+        <h3 id="maintenance"> How to set your maintenance page time, slider and youtube video.</h3>
+		
+        <p>While you do some changes on your stuff you can set maintenance page .</p>
+        
+        <pre class="brush: html">
+        
+				<p> <strong> Change the date as below code (you can find at footer of maintenance page) </strong></p>
+          <script>
+	// countdown script
+		$("#countdown").countdown({
+			date: "18 january 2015 23:59:59", // add your date here.
+				format: "on"
+		},
+		function() { 
+			alert("done!") 
+		});	
+		</script>
+		</pre>
+
+		<p> <strong> Just change demos folder image or set path of your image(you can find at footer of maintenance page) </strong></p>
+		
+		<pre class="brush: html">
+		
+		<script type="text/javascript">
+	    $.backstretch([
+       'demos/parallax_02.jpg'
+	   'demos/parallax_01.jpg'
+	   'demos/home-banner.png'
+    ], {
+        fade: 1000,
+        duration: 3000
+    });
+		</script>
+        </pre>
+		
+		<p> <strong> To Change youtube video just set new url (you can find at after body starts) </strong></p>
+		
+		<pre class="brush: html">
+		
+		 <a id="bgndVideo" class="player" data-property="{videoURL:'http://www.youtube.com/watch?v=shKKtFVNQ6I',containment:'body',autoPlay:true, mute:false, startAt:33, opacity:1}">youtube</a>
+     
+        </pre>
+        
+        <p>Then upload fonts folder to the your css/ folder. That's it! Now use font awesome icons like this;</p>
+	
+		<pre class="brush: html">
+        	<!-- Font Awesome Files -->
+            <i class="fa fa-home"></i>
+        </pre>
+        	
+        <br>      
+		
+        
+        <h3 id="b4">B-6) Using Color Schemes</h3>
+		
+        <p>We build an example color schemes for you but dont worry, you can create your own color combinations very easy. So, If would you like to change anythigns please open style.css and search like this;</p>
+        
+        <pre class="brush: css">
+        /* ----------------------------------------------------
+       		 COLOR SCHEMES line no - 1645 *Change color, border color, and background to apply.
+        ------------------------------------------------------- */	
+         color:#27E0FF; //Blue
+         color:#DDD;   //Grey
+	
+        </pre>
+        	
+        <br>    
+
+		<h3 id="mapusage"><strong>C) How to use Google Map</strong> - <a href="#toc">top</a></h3>
+
+		<p>We build an amazing Google Map API qith a jQuery code. If would you like to see how we used a google map please check below;</p>
+        
+		<pre class="brush: js">
+        	<!-- insert jQuery codes with <script></script> tags -->
+			http://maps.google.com/maps/api/js?sensor=false
+			
+        </pre>
+
+		<p>Then call this plugin. This is your location (-37.801578, 145.060508). Is this plugin from application.js file.</p>
+        
+		<pre class="brush: js">
+        <script>
+		var locations = [
+		['<div class="infobox"><img class="alignleft img-responsive" src="demos/office.jpg" alt=""><h3 class="title"><a href="about1.html">OUR USA OFFICE</a></h3><span>NEW YORK CITY 2045 / 65</span><br>+90 555 666 77 88</p></div></div></div>', -37.801578, 145.060508, 2]
+		];
+	
+		var map = new google.maps.Map(document.getElementById('map'), {
+		  zoom: 10,
+			scrollwheel: false,
+			navigationControl: true,
+			mapTypeControl: false,
+			scaleControl: false,
+			draggable: true,
+			styles: [ { "stylers": [ { "hue": "#FE7E17" }, { "gamma": 1 } ] } ],
+			center: new google.maps.LatLng(-37.801578, 145.060508),
+		  mapTypeId: google.maps.MapTypeId.ROADMAP
+		});
+	
+		var infowindow = new google.maps.InfoWindow();
+	
+		var marker, i;
+	
+		for (i = 0; i < locations.length; i++) {  
+	  
+			marker = new google.maps.Marker({ 
+			position: new google.maps.LatLng(locations[i][1], locations[i][2]), 
+			map: map ,
+			icon: 'images/marker.png'
+			});
+	
+	
+		  google.maps.event.addListener(marker, 'click', (function(marker, i) {
+			return function() {
+			  infowindow.setContent(locations[i][0]);
+			  infowindow.open(map, marker);
+			}
+		  })(marker, i));
+		}
+	</script>
+        </pre>
+
+		<p>Add Google Map to the your site;</p>
+        
+		<pre class="brush: html">
+    	<div id="map"></div>
+        </pre>
+
+		<hr>
+
+		<h3 id="jquery"><strong>D) How to edit a jQuery file</strong> - <a href="#toc">top</a></h3>
+        
+        <p>We used some great jQuery plugins for this template. All our plugins has been added from custom.js and single page templates file from template folder. If you want to edit some single pages or just you want to edit application.js please open it a text editor like Dreamweaver, Notepad or Notepad++ and edit any lines what you want.</p>
+        
+        <p>Please check custom plugins from /js/application.js file.</p>
+        
+		<h3 id="html"><strong>E) How to edit a HTML file</strong> - <a href="#toc">top</a></h3>
+        
+        <p>We have included 22 custom HTML templates like homepage styles, single styles, blog styles etc. Please open any HTML files with a text editor like Dreamweaver, Notepad or Notepad++ and edit any lines what you want.</p>
+        
+		
+        
+
+		<h3 id="support"><strong>G) Requesting Support</strong> - <a href="#toc">top</a></h3>
+
+        <p>Please remember you have purchased a very affordable template and you have not paid for a full-time web design agency. Occasionally we will help with small tweaks, but these requests will be put on a lower priority due to their nature.</p>
+
+		<p>Support is also 100% optional and we provide it for your connivence, so please be patient, polite and respectful.</p>
+
+		<p><strong>Before seeking support, please...</strong>
+
+		<ul>
+            <li>Make sure your question is a valid plugin issue and not a customization request.</li>
+            <li>Make sure you have read through the documentation before asking support on how to accomplish a task.</li>
+            <li>Make sure to double check the plugin FAQs.</li>
+            <li>If you have customized your plugin and now have an issue, back-track to make sure you didn't make a mistake. If you have made changes and can't find the issue, please provide us with your changelog.</li>
+            <li>Almost 80% of the time we find that the solution to people's issues can be solved with a simple "Google Search". You might want to try that before seeking support. You might be able to fix the issue yourself much quicker than we can respond to your request.</li>
+            <li>Make sure to state the name of the plugin you are having issues with when requesting support via CodeCanyon.</li>
+        </ul>
+<hr>
+		<h3 id="credits"><strong>H) Credits</strong> - <a href="#toc">top</a></h3>
+        
+        <p>I wanted to thank you personally for purchasing our HTML template. I hope you enjoy the plugin fully and that it works well for your or your client's website.</p>
+        
+        <p><strong>Resources used in Design</strong> - Also a thanks to all the awesome resources I've used/purchased for the development of this template.</p>
+        
+		<ul>
+			<li><a href="http://maps.google.com/maps/api/js?sensor=false">Google Map API</a></li>
+			<li><a href="http://jquery.org">jQuery Base</a></li>
+			<li><a href="http://getbootstrap.com">Bootstrap 3.0</a></li>
+			<li><a href="http://fitvidsjs.com/">Fitdiv JS</a></li>
+			<li><a href="http://retinajs.com">Retina JS</a></li>
+            <li><a href="https://github.com/matthieua/WOW">Wow Animations</a>
+			<li><a href="http://woothemes.com">Flexslider</a></li>
+            <li><a href="http://isotope.metafizzy.co">Isotope Masonry Effect</a></li>
+			<li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">PrettyPhoto</a></li>
+			<li><a href="custom.js">All plugins coded by Designing Media team</a></li>
+		</ul>
+<hr>
+
+		<ul>
+			<li><a href="http://photodune.net">Photodune.net</a></li>
+		</ul>
+<hr>
+
+		<h3 id="version"><strong>I) Version History</strong> - <a href="#toc">top</a></h3>
+			<p>You can find the version history (changelog.txt) file on <strong>Vizerk-full.zip</strong> folder</p>
+		<hr>
+              
+		<p>Once again, thank you so much for purchasing this plugin. As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin. No guarantees, but I'll do my best to assist. If you have a more general question relating to the template on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+        
+		<p class="append-bottom alt large"><strong>Designing Media Team</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+   
+		<script src="assets/js/jquery-1.8.2.js"></script>
+		<script src="assets/js/jquery.easing.min.js"></script>
+		<script src="syntax-highlighter/scripts/shCore.js"></script>
+		<script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+		<script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+		<script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+		<script src="assets/js/main.js"></script>
+</body>
+</html> 
