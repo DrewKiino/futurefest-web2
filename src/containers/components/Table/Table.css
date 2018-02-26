@@ -1,0 +1,33 @@
+
+table {
+
+	width: 100%;
+  height: 100%;
+
+  border-collapse: collapse;
+  border: 1px solid darkviolet;
+}
+
+td {
+
+  border: 1px solid darkviolet;
+
+  width: auto;
+
+  padding: 8px;
+  text-align: left;
+}
+
+tr {
+  font-weight: normal;
+}
+
+.Table {
+  margin: auto;
+  width: 100%;
+  overflow: auto;
+}
+
+.Header {
+  font-weight: bold;
+}

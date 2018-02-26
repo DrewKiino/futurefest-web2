@@ -1,0 +1,61 @@
+
+.FileSelectorContainer {
+	width: 380px;
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+	vertical-align: middle;
+	background-color: deeppink;
+	border-color: deeppink;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.FileSelector input {
+	background-color: deeppink;
+	color: white;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+
+.FileSelector input:hover {
+	background-color: deeppink;
+	color: white;
+}
+
+.FileSelector input:focus {
+	outline: none;
+}
+
+.FileSelector input:active {
+	background-color: white;
+	color: deeppink;
+}
+
+.FileSelector button {
+	background-color: deeppink;
+	color: white;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+
+.FileSelector button:hover {
+	background-color: darkviolet;
+	color: white;
+}
+
+.FileSelector button:focus {
+	outline: none;
+}
+
+.FileSelector button:active {
+	background-color: white;
+	color: deeppink;
+	border: 1px solid darkviolet;
+}

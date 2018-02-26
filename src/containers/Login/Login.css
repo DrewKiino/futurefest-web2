@@ -1,0 +1,40 @@
+
+.Login {
+	text-align: center;
+}
+
+.inputContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.optionsContainer {
+	width: 100%;
+	max-width: 450px;
+}
+
+#rememberMe {
+	float: left;
+}
+
+#forgotPassword {
+	float: right;
+}
+
+.Login h1 {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.Login a {
+	color: darkviolet;
+	text-decoration: none;
+}
+
+.Login a:hover {
+	color: deeppink;
+}

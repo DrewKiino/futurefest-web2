@@ -1,0 +1,12 @@
+
+.container {
+	width: 100%;
+	text-align: right;
+	background-color: darkviolet;
+}
+
+.child {
+	display: inline-block;
+}
+
+
